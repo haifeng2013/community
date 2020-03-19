@@ -1,0 +1,12 @@
+{
+  "name": "service",
+  "version": "1.0.0",
+  "description": "service provider",
+  "main": "index.js",
+  "author": "xhaifeng",
+  "license": "MIT",
+  "dependencies": {
+    "nodemailer": "^6.4.5",
+    "request": "^2.88.2"
+  }
+}

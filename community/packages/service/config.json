@@ -1,0 +1,10 @@
+{
+    "SMTP": {
+        "host": "smtp.live.com",
+        "name": "Here Community",
+        "user": "myHereCommunity@hotmail.com",
+        "pass": "community123",
+        "port": 587,
+        "secure": true
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "offers": "vKfohF7J",
+    "requests": "97yYVnAy",
+    "hub": "https://xyz.api.here.com/hub",
+    "communityService": "http://localhost:8090",
+    "geoservice": "https://geocoder.ls.hereapi.com/6.2",
+    "revgeoservice": "https://reverse.geocoder.ls.hereapi.com/6.2"
+}

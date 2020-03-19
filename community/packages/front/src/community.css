@@ -1,0 +1,112 @@
+#map{
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#pass{
+  -webkit-text-security: disc;
+}
+
+.button{
+  position: absolute;;
+  background-color: #00AFAA;
+  left: 50%;    
+  margin-left: -50px;
+}
+.offerButton{
+  position: absolute;;
+  background-color: #00AFAA;
+  left: 80px;    
+  top: 30px;   
+  margin-left: -50px;
+}
+
+.requestButton{
+  position: absolute;;
+  background-color: #00AFAA;
+  left: 220px;    
+  top: 30px;   
+  margin-left: -50px;
+}
+
+.dialog{
+  position: absolute;;
+  overflow: hidden;
+  background-color: #00AFAA;
+  border-radius: 8px;
+}
+
+.loginDialog{
+  opacity: 0.8;
+  margin: auto;
+  padding: 25px 50px 75px 50px;
+  width: 500px;
+  height: 300px;
+  top: 50%;
+  left: 50%;    
+  margin-left: -250px;
+  margin-top: -250px;
+}
+
+.loginCover{
+  background-color: #333333;
+  opacity: 0.7;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.offerDialog, .requestDialog{
+  position: absolute;
+  margin: auto;
+  font-size: 12px;
+  padding: 5px 20px 15px 20px;
+  width: 300px;
+  height: 520px;
+  top: 90px;
+  left: 30px;
+}
+.offerDialog{
+  height: 580px;
+}
+.contactDialog{
+  position: absolute;
+  margin: auto;
+  font-size: 12px;
+  padding: 5px 20px 15px 20px;
+  width: 300px;
+  height: 600px;
+  top: 40px;
+  right: 30px;
+}
+.offerDialog label, .requestDialog label, .contactDialog label{
+  margin: 5px 0 5px
+}
+.services label{
+  font-size: 12px;
+  display:inline-block;
+  padding: 0 0 0 5px;
+  margin: 0 2px 0 5px;
+}
+
+.offerDialog input[type="text"], .requestDialog input[type="text"], .contactDialog input[type="text"], select{
+  height:30px
+}
+
+.requestSubmit{
+  top: 460px;
+  left: 130px;
+}
+.offerSubmit{
+  top: 520px;
+  left: 130px;
+}
+.contactSubmit{
+  top: 540px;
+  left: 130px;
+}
